@@ -1,0 +1,232 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+    background: #282828;
+    padding: 6px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header__nav-link {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.38px;
+    transition: 300ms;
+}
+
+.header__nav-link:hover {
+    color: rgb(96, 96, 96);
+}
+
+.header__nav-search {
+    display: flex;
+    column-gap: 25px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/header__content.png) no-repeat center /cover;
+    min-height: 100vh;
+}
+
+.header__content-title {
+    color: white;
+    font-size: 100px;
+    line-height: 75px;
+    font-weight: 400;
+    font-family: "Prosto-One";
+    margin-bottom: 38px;
+}
+
+.header__content-btn {
+    color: #171718;
+    padding: 14px;
+    background: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 24.38px;
+    font-family: "Montserrat-Medium";
+}
+
+.header__content-btn img {
+    margin-left: 11px;
+}
+
+.main {
+    background: #151515;
+    padding-bottom: 55px;
+}
+
+.main__block-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 50px 0;
+}
+
+.main__block-text {
+    color: white;
+    font-size: 22px;
+    line-height: 26.82px;
+    font-family: "Montserrat-Medium";
+    max-width: 538px;
+    width: 100%;
+}
+
+.main__block-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.main__three-text {
+    color: white;
+    font-size: 20px;
+    line-height: 24.38px;
+    font-family: "Montserrat-Bold";
+    max-width: 333px;
+    width: 100%;
+}
+
+.right {
+    text-align: right;
+}
+
+.main__three-img {
+    display: flex;
+    align-items: center;
+}
+
+.main__three-img::before {
+    content: "";
+    display: block;
+    margin-right: 14px;
+    margin-left: 13px;
+    background: white;
+    width: 61px;
+    height: 1px;
+}
+.main__three-img::after {
+    content: "";
+    display: block;
+    margin-left: 14px;
+    margin-right: 11px;
+    background: white;
+    width: 61px;
+    height: 1px;
+}
+
+.main__block-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    max-width: 255px;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 6px;
+}
+
+.item__title {
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold";
+    margin-bottom: 10px;
+}
+
+.item__text {
+    color: #000000;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Montserrat-Regular";
+    margin: 10px 0 20px 0;
+}
+
+.item__btn {
+    color: white;
+    background: #000;
+    padding: 7px 57px;
+    align-self: center;
+    font-family: "Montserrat-Bold";
+    font-size: 16px;
+    line-height: 19.5px;
+    transition: 300ms;
+}
+
+.item__btn:hover {
+    color: #000;
+    background: white;
+}
+
+.footer {
+    background: #282828;
+    padding: 80px 0;
+}
+
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__nav-link {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold";
+    transition: 300ms;
+}
+
+.footer__nav-link:hover {
+    color: rgb(78, 71, 71);
+}
+
+.footer__block-card {
+    display: flex;
+    gap: 30px;
+}
+
